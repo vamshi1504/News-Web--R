@@ -83,7 +83,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 const Newsapp = () => {
   const [search, setSearch] = useState("india");
   const [newsData, setNewsData] = useState(null);
-  const API_KEY = "cc801acca5fd466abcd8bf4be2a4fc2d";
+  const API_KEY = "a1f248778fd7431aaec3afb2d7fcbd39";
 
   const getData = async () => {
     const response = await fetch(
